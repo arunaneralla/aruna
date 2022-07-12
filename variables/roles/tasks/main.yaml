@@ -1,0 +1,4 @@
+ ---
+ - name: display value
+   debug:
+     msg: "{{ default_value }}"

@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  vars:
+    default_value: my first variable
+  tasks:
+  - name: display value
+    debug:
+      msg: "{{ default_value }}"
+

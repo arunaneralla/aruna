@@ -1,0 +1,10 @@
+---
+- name: ansible playbook to test ansible vault
+  hosts: localhost
+  become: true
+  tasks: 
+  - name: clone a repo
+    git:
+      repo: https://github.com/arunaneralla/ansible-vault.git
+      dest: /opt/root/aruna
+
